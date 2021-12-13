@@ -1,5 +1,6 @@
 import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles'
 import './App.css';
+import CustomBtn from './components/CustomBtn'
 
 const theme = createMuiTheme({
   palette: {
@@ -30,7 +31,7 @@ function App() {
   return (
     <div className="App">
       <ThemeProvider theme={theme}>
-
+        <CustomBtn txt="Hello World" />
       </ThemeProvider>
     </div >
   );
