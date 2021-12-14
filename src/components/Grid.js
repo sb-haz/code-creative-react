@@ -4,11 +4,11 @@ import { makeStyles } from '@material-ui/core/styles'
 import CustomBtn from './CustomBtn'
 
 const styles = makeStyles({
-    wrapped: {
+    wrapper: {
         display: "flex",
         flexDirection: "column",
         alignItems: "center",
-        padding: "0 5rem 0 5rem"
+        padding: "0 6rem 0 6rem"
     },
     item: {
         paddingTop: "1rem"
@@ -16,7 +16,7 @@ const styles = makeStyles({
 })
 
 const Grid = (props) => {
-    
+
     const { icon, title, btnTitle } = props
     const classes = styles()
 
