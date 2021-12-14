@@ -51,7 +51,7 @@ const styles = makeStyles({
     textAlign: "center"
   },
   bigSpace: {
-    marginTop: "5rem"
+    marginTop: "6rem"
   },
   littleSpace: {
     marginTop: "2.5rem",
@@ -82,7 +82,7 @@ function App() {
             At Rocket.io we are passionate about software.
           </Typography>
           <Typography className={classes.littleSpace} variant="h5" colour="secondary">
-            Lorem ipsum dolar sit amet, consectetur adipiscing elit. Aenean sodales congue trisian.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut tristique nisi.
           </Typography>
         </div>
 
