@@ -98,9 +98,9 @@ function App() {
           <Grid icon={<HttpIcon style={{ fill: "#2EA09D", height: "125", width: "125" }} />} title="Connected" btnTitle="Show me More" />
         </div>
 
-        <div className={classes.bigSpace} />
-
-        <Footer />
+        <div className={classes.bigSpace}>
+          <Footer />
+        </div>
 
       </ThemeProvider>
 
