@@ -3,6 +3,7 @@ import './App.css';
 // Components
 import NavBar from './components/NavBar'
 import Grid from './components/Grid'
+import Footer from './components/Footer'
 
 // Material UI
 import { ThemeProvider, createMuiTheme, makeStyles } from '@material-ui/core/styles'
@@ -98,6 +99,8 @@ function App() {
         </div>
 
         <div className={classes.bigSpace} />
+
+        <Footer />
 
       </ThemeProvider>
 
